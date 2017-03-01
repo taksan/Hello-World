@@ -2,6 +2,6 @@
 
 node {
 	stage('main') {
-		sh 'ls -a'
+		sh 'ls /tmp'
 	}
 }
